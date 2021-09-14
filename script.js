@@ -93,5 +93,5 @@ function changeImgDirection(collision) {
 
 // Change color
 function changeImgColor() {
-  imgEl.style.filter = `invert(${Math.random()}%) sepia(${Math.random()}%) saturate(${Math.random()}%) hue-rotate(${Math.random()}deg) brightness(${Math.random() * 1000}%) contrast(${Math.random() * 80}%)`;
+  imgEl.style.filter = `invert(${Math.random() * 100}%) sepia(${Math.random() * 100}%) saturate(${Math.random() * 100}%) hue-rotate(${Math.random() * 360}deg) brightness(${Math.random() * 1000}%) contrast(${Math.random() * 100}%)`;
 }
